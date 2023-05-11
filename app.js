@@ -11,7 +11,7 @@ for (let i = 0; i < pronoun.length; i++) {
   for (let j = 0; j < adj.length; j++) {
     for (let k = 0; k < noun.length; k++) {
       for (let l = 0; l < ext.length; l++) {
-        if (noun[k].endsWith("us")) {8
+        if (noun[k].endsWith("us")) {
           let newNoun = noun[k].replace("us", "");
           console.log(pronoun[i] + adj[j] + newNoun + ext[1]);
         } else {
